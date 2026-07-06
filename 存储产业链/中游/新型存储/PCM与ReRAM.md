@@ -106,12 +106,12 @@ mindmap
 
 ## 市场格局
 
-PCM和ReRAM市场规模目前较小，2024年全球PCM/ReRAM市场合计约5-10亿美元，主要来自嵌入式应用和特殊存储。Optane停产后PCM独立芯片市场大幅萎缩，但嵌入式PCM和存算一体ReRAM是新兴增长点。
+PCM和ReRAM市场规模目前较小，2025年全球新兴存储市场约94亿美元（CAGR 18.6%），其中PCM/ReRAM是重要组成部分，主要来自嵌入式应用和特殊存储。Intel Optane停产后PCM独立芯片市场大幅萎缩，但嵌入式PCM和存算一体ReRAM是新兴增长点，存算一体需求成为新型存储发展的催化剂。
 
-主要厂商包括：Intel（Optane/PCM研发，已停产但技术积累深厚）、美光（3D XPoint合作方）、格罗方德（ePCM代工）、台积电（eRRAM代工）、Crossbar（ReRAM初创公司）、Weebit Nano（ReRAM）、Tetramem（ReRAM存算一体）等。中国在ReRAM存算一体领域有知存科技、亿铸科技等初创公司布局。
+主要厂商包括：Intel（Optane/PCM已停产，但技术积累深厚）、美光（3D XPoint合作方）、格罗方德（ePCM代工）、台积电（eRRAM代工）、Crossbar（ReRAM初创公司）、Weebit Nano（ReRAM）、Tetramem（ReRAM存算一体）等。中国在ReRAM存算一体领域有知存科技、亿铸科技等初创公司布局。
 
 ```mermaid
-pie title 新型存储(PCM/ReRAM)市场份额（约）
+pie title 新型存储(PCM/ReRAM)市场份额（约2025）
     "Intel(技术积累)" : 25
     "格罗方德(ePCM代工)" : 20
     "台积电(eRRAM代工)" : 18
@@ -124,7 +124,7 @@ pie title 新型存储(PCM/ReRAM)市场份额（约）
 
 | 企业 | 国家/地区 | 主要产品/技术 | 市场地位 |
 |------|----------|-------------|---------|
-| Intel | 美国 | Optane/PCM(已停产) | PCM技术积累最深，Optane曾大规模商用 |
+| Intel | 美国 | Optane/PCM(已停产) | PCM技术积累最深，Optane曾大规模商用，技术遗产持续推动新型存储创新 |
 | 美光 | 美国 | 3D XPoint(PCM类) | 与Intel合资开发3D XPoint |
 | 格罗方德(GlobalFoundries) | 美国 | 28nm ePCM代工 | 嵌入式PCM代工领先 |
 | 台积电(TSMC) | 中国台湾 | 40nm/22nm eRRAM | 嵌入式ReRAM代工 |
@@ -134,6 +134,15 @@ pie title 新型存储(PCM/ReRAM)市场份额（约）
 | 亿铸科技 | 中国 | ReRAM AI芯片 | 存算一体AI加速器 |
 
 ## 发展趋势
+
+### 市场规模预测
+
+| 年份 | 市场规模 | 同比增长 | 备注 |
+|------|---------|---------|------|
+| 2024 | ~80亿美元 | — | 基准年（新兴存储整体） |
+| 2025 | ~94亿美元 | +17.5% | CAGR 18.6%，存算一体需求兴起 |
+| 2026E | ~112亿美元 | +19% | ReRAM存算一体芯片商业化推进 |
+| 2027E | ~133亿美元 | +19% | 混合精度架构成熟，AI推理落地 |
 
 **存算一体是核心方向**：PCM和ReRAM的模拟特性使其天然适合存内计算，利用基尔霍夫电流定律在存储阵列中执行矩阵乘法，避免冯·诺依曼瓶颈。ReRAM存算一体芯片已在AI推理场景验证可行，功耗可降低10-100倍。
 

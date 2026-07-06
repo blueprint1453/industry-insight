@@ -100,14 +100,14 @@ mindmap
 
 ## 市场格局
 
-全球EDA市场规模约150亿美元（2024年），其中Synopsys约40%、Cadence约30%、Siemens EDA约15%，三家合计占据85%以上份额。EDA市场虽规模不大，但技术壁垒极高——每家头部企业经过30-40年的技术积累和并购整合才形成全流程工具链，新进入者极难在短期内建立竞争力。
+全球EDA市场规模约213.6亿美元（2025年），其中Synopsys约40%、Cadence约30%、Siemens EDA约15%，三家合计占据85%以上份额。EDA市场虽规模不大，但技术壁垒极高——每家头部企业经过30-40年的技术积累和并购整合才形成全流程工具链，新进入者极难在短期内建立竞争力。
 
-IP市场规模约70亿美元（2024年），ARM在CPU IP领域占比超过40%，是绝对龙头。Synopsys（Interface IP）和Cadence（Interface IP + Verification IP）在接口IP领域领先。Alphawave在112G/224G SerDes IP领域快速崛起，已成为高速SerDes IP的重要供应商。
+IP市场规模约70亿美元（2025年），ARM在CPU IP领域占比超过40%，是绝对龙头。Synopsys（Interface IP）和Cadence（Interface IP + Verification IP）在接口IP领域领先。Alphawave在112G/224G SerDes IP领域快速崛起，已成为高速SerDes IP的重要供应商。
 
 中国EDA市场方面，华大九天在模拟EDA和平板显示EDA领域有一定优势，概伦电子在器件建模和电路仿真领域有技术积累，广立微在良率分析领域有所布局，芯和半导体在先进封装EDA领域有产品。但国产EDA在全流程数字芯片设计工具链上与国际三巨头差距较大，尤其在先进制程（7nm以下）的设计能力上差距明显。
 
 ```mermaid
-pie title 全球EDA市场份额（2024年约）
+pie title 全球EDA市场份额（2025年约）
     "Synopsys" : 40
     "Cadence" : 30
     "Siemens EDA" : 15
@@ -119,9 +119,9 @@ pie title 全球EDA市场份额（2024年约）
 
 | 企业 | 国家/地区 | 主要产品/技术 | 市场地位 |
 |------|----------|-------------|---------|
-| Synopsys | 美国 | Design Compiler、ICC2、PrimeTime、VC Formal | 全球EDA市场份额第一 |
-| Cadence | 美国 | Genus、Innovus、Tempus、Virtuoso | 全球EDA市场份额第二 |
-| Siemens EDA（原Mentor） | 德国 | Calibre、Calibre nmDRC、Tessent | 物理验证和DFT领域领先 |
+| Synopsys | 美国 | Design Compiler、ICC2、PrimeTime、VC Formal | 全球EDA市场份额第一，2025财年营收70.54亿美元（+15.1%） |
+| Cadence | 美国 | Genus、Innovus、Tempus、Virtuoso | 全球EDA市场份额第二，2025年营收~52亿美元（+13.5%） |
+| Siemens EDA（原Mentor） | 德国 | Calibre、Calibre nmDRC、Tessent | 物理验证和DFT领域领先，EDA全球#3 |
 | ARM | 英国 | Cortex CPU IP、Mali GPU、Ethos NPU IP | 全球CPU IP绝对龙头 |
 | Alphawave Semi | 英国/加拿大 | 112G/224G SerDes IP、PCIe/CXL IP | 高速接口IP新锐 |
 | Imagination | 英国 | PowerVR GPU IP、NNA AI加速IP | GPU IP授权领先企业 |
@@ -129,6 +129,15 @@ pie title 全球EDA市场份额（2024年约）
 | 概伦电子 | 中国 | 器件建模、电路仿真EDA | 国产EDA细分领域领先 |
 
 ## 发展趋势
+
+### 市场规模预测
+
+| 年份 | 市场规模 | 同比增长 | 备注 |
+|------|---------|---------|------|
+| 2024 | ~195亿美元 | — | 基准年 |
+| 2025 | ~213.6亿美元 | +9.4% | AI芯片设计驱动EDA需求，CAGR 9.36% |
+| 2026E | ~234亿美元 | +9.4% | 3D-IC和先进封装EDA需求爆发 |
+| 2027E | ~256亿美元 | +9.4% | 2nm/1.4nm制程设计工具需求增长 |
 
 1. **AI赋能EDA成为行业趋势**：Synopsys DSO.ai和Cadence Cerebrus将AI/ML引入EDA流程，自动优化布局布线和参数调优。AI驱动的EDA可将设计周期缩短40-60%，在先进制程芯片设计中价值尤为突出。未来EDA工具将向"AI自动设计+人工审核"模式演进。
 
@@ -142,7 +151,7 @@ pie title 全球EDA市场份额（2024年约）
 
 ## 与AI产业链的关联
 
-EDA和IP是AI芯片设计的"必要工具"——没有EDA工具和IP核，任何AI芯片（GPU、NPU、ASIC）都无法完成设计。AI芯片的快速迭代（每年新一代产品）严重依赖EDA工具的设计效率提升和高质量IP的快速集成。
+EDA和IP是AI芯片设计的"必要工具"——没有EDA工具和IP核，任何AI芯片（GPU、NPU、ASIC）都无法完成设计。2025年全球EDA市场规模约213.6亿美元，AI芯片的快速迭代（每年新一代产品）严重依赖EDA工具的设计效率提升和高质量IP的快速集成。Synopsys 2025财年营收70.54亿美元（+15.1%）成为EDA全球#1，2025Q3 CAE领域收入20.98亿美元（+9.1%）、SIP领域收入19.16亿美元，反映AI芯片设计对EDA工具的强劲需求。
 
 反过来，AI技术也在深刻改变EDA和IP产业。AI驱动的EDA工具正在将芯片设计从"手工密集型"转向"AI辅助自动化"，大幅降低设计门槛和周期。这种变革可能降低对资深设计师的依赖，使更多企业有能力设计先进芯片，从而推动整个芯片设计行业的繁荣。
 

@@ -98,12 +98,12 @@ mindmap
 
 ## 市场格局
 
-MRAM市场目前规模较小，2024年全球MRAM市场约5-8亿美元，但增长潜力巨大。主要厂商包括三星、台积电、英特尔、格罗方德等代工/IDM厂商，以及Everspin、Avalanche Technology等专业MRAM公司。
+MRAM市场目前规模较小但增长潜力巨大。2025年全球新兴存储市场约94亿美元（CAGR 18.6%），其中MRAM是重要组成部分。主要厂商包括三星、台积电、英特尔、格罗方德等代工/IDM厂商，以及Everspin、Avalanche Technology等专业MRAM公司。STT-MRAM量产化持续推进，SOT-MRAM作为下一代技术正在快速发展。
 
-Everspin是独立MRAM芯片市场的开创者和领导者，提供1Mb-1Gb的独立STT-MRAM产品。三星在嵌入式eMRAM代工服务上处于领先地位，已量产28nm eMRAM。台积电和格罗方德也提供eMRAM工艺平台。中国在MRAM领域尚处于早期阶段，国内中芯国际和部分初创企业在探索MRAM技术。
+Everspin是独立MRAM芯片市场的开创者和领导者，提供1Mb-1Gb的独立STT-MRAM产品。三星在嵌入式eMRAM代工服务上处于领先地位，已量产28nm eMRAM，同时推进SOT-MRAM研发。台积电和格罗方德也提供eMRAM工艺平台。中国在MRAM领域尚处于早期阶段，国内中芯国际和部分初创企业在探索MRAM技术。
 
 ```mermaid
-pie title MRAM市场份额（约）
+pie title MRAM市场份额（约2025）
     "三星(嵌入式代工)" : 28
     "台积电(嵌入式代工)" : 25
     "Everspin(独立芯片)" : 20
@@ -116,9 +116,9 @@ pie title MRAM市场份额（约）
 
 | 企业 | 国家/地区 | 主要产品/技术 | 市场地位 |
 |------|----------|-------------|---------|
-| 三星 | 韩国 | eMRAM/SOT-MRAM研发 | 嵌入式MRAM代工领先，28nm eMRAM量产 |
+| 三星 | 韩国 | eMRAM/SOT-MRAM研发 | 嵌入式MRAM代工领先，28nm eMRAM量产，STT-MRAM量产化推进 |
 | 台积电 | 中国台湾 | eMRAM代工 | 22nm eMRAM工艺平台 |
-| Everspin | 美国 | 独立STT-MRAM芯片 | 独立MRAM芯片全球龙头 |
+| Everspin | 美国 | 独立STT-MRAM芯片 | 独立MRAM芯片全球龙头，STT-MRAM量产 |
 | 格罗方德(GlobalFoundries) | 美国 | eMRAM代工 | 22FDX eMRAM工艺 |
 | 英特尔 | 美国 | SOT-MRAM研发 | 面向CPU缓存的SOT-MRAM |
 | Avalanche Technology | 美国 | 独立MRAM | 军工/航天MRAM供应商 |
@@ -126,6 +126,15 @@ pie title MRAM市场份额（约）
 | 西安交大/北航 | 中国 | MRAM学术研究 | 基础研究和技术积累 |
 
 ## 发展趋势
+
+### 市场规模预测
+
+| 年份 | 市场规模 | 同比增长 | 备注 |
+|------|---------|---------|------|
+| 2024 | ~80亿美元 | — | 基准年（新兴存储整体） |
+| 2025 | ~94亿美元 | +17.5% | STT-MRAM量产化推进，CAGR 18.6% |
+| 2026E | ~112亿美元 | +19% | SOT-MRAM嵌入式量产启动 |
+| 2027E | ~133亿美元 | +19% | AI缓存应用落地，存算一体推进 |
 
 **SOT-MRAM量产临近**：SOT-MRAM作为下一代技术，预计2025-2027年进入嵌入式量产。SOT-MRAM的亚纳秒写入和无限耐久度使其成为替代SRAM L2/L3缓存的理想方案。
 
